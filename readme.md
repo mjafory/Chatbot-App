@@ -17,9 +17,3 @@ This chatbot application provides support and information on common queries rela
 - **HTML**: Structure and content layout.
 - **CSS**: Styling and design elements.
 - **JavaScript**: Functionality, including message handling, local storage management, and modal interaction.
-
-## Getting Started
-
-### Prerequisites
-
-Ensure you have a modern web browser that supports HTML5, CSS3, and ES6 JavaScript.
