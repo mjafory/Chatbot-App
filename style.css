@@ -1,0 +1,161 @@
+  body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0;
+  }
+
+  #openChatbotButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #openChatbotButton:hover {
+    background-color: #0056b3;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    /* margin: 15% auto; */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .chatbox {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .chatbox-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .chatbox-body {
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: white;
+  }
+
+  .chatbox-footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pre-made-questions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+
+  .pre-made-questions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .pre-made-questions button:hover {
+    background-color: #0056b3;
+  }
+
+  #user-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-bottom: 5px;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    margin: 5px;;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .delete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .delete-button:hover {
+    background-color: #d8abab;
+  }
+
+  .clear-button {
+    margin-top: 10px;
+  }
+.bot {
+  color: blue;
+}
+
+.user {
+  margin: 5px;;
+}

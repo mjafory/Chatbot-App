@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot with Pre-made Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="openChatbotButton">Open Chatbot</button>
+
+  <div id="chatbotModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="chatbox">
+              <div class="chatbox-header">Chatbot</div>
+              <div class="chatbox-body" id="chatbox-body">
+                  <!-- Chat messages will appear here -->
+              </div>
+              <div class="chatbox-footer">
+                  <div class="pre-made-questions">
+                      <!-- Pre-made questions will appear here -->
+                  </div>
+                  <input type="text" id="user-input" placeholder="Type your message here..." />
+                  <button onclick="sendMessage()">Send</button>
+                  <button class="clear-button" onclick="clearChatHistory()">Clear Chat</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
